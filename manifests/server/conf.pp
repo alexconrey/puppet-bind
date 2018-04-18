@@ -108,6 +108,7 @@ define bind::server::conf (
   $allow_query_cache      = [],
   $recursion              = 'yes',
   $logging                = true,
+  $custom_logging         = {},
   $allow_recursion        = [],
   $allow_transfer         = [],
   $check_names            = [],
