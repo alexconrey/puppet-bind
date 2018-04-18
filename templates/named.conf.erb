@@ -116,11 +116,11 @@ logging {
 <% if @custom_logging and !@custom_logging.empty? -%>
 <% @custom_logging.each do |log_type,log_hashes| -%>
 <% log_hashes.each do |name,log_hash| -%>
-   <%= log_type %> <%= name %> {
+    <%= log_type %> <%= name %> {
 <% log_hash.each do |key,val| -%>
-     <%= key %> <%= val %>;
+        <%= key %> <%= val %>;
 <% end -%>
-   };
+    };
 <% end -%>
 <% end -%>
 <% end -%>
